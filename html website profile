@@ -1,26 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A website for my portfolio</title>
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-        }
-        h1 {
-            color: #0078D7;
-        }
-        p {
-            color: #333;
-        }
-    </style>
+
+	<title>MainPage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>IDK What I am doing</h1>
-    <p>this is a test RIP</p>
+
+
+
+<div class="Heading">
+	<div class="My_pic">
+		<img src="Jennifer_Slater.jpg" alt="Its me!" width="150">
+	<div class="My_name">
+		<h1>Jennifer</h1>
+		<h1>Slater</h1>
+
+	<div class="Page_links">
+		<nav>
+ 		<a href="Index.html">Home</a>
+  		<a href="Pages\about.html">About</a>
+  		<a href="Pages\resume.html">Resume/CV</a>
+  		<a href="Pages\papers.html">Papers</a>
+  		<a href="Pages\contact.html">Contact</a>
+		</nav>
+
+	</div>
+	</div>
+	</div>
+</div>
+
+<div class="cute_box_thing">
+  	<p>Explore My Work</p>
+</div>
+
+
+<div class="info">
+	<div class="moth">
+		<img src="Moth_Morphometrics.jpg" alt="Image of Polyphemus moth and pale-winged gray:
+Antheraea polyphemus, Iridopsis ephyraria" width="150">
+	</div>
+
+
+<div class="words">
+	<div class="Moth_Morphometrics">
+  		<a href="https://github.com/JenniferSlater/Moth-Outline-and-shape-detection " target="_blank">GitHub,</a>
+		<a href="https://docs.google.com/document/d/1kPd5wu8rlvIAc2tuPMdbRr9myOy5qNXS0PARaLnSZC8/edit?tab=t.0" target="_blank">Honors Thesis</a>
+
+		<p>Developed an R-based pipeline to automate morphometric feature extraction <br>
+		Enables reasurchers to process large batches of image datasets and addresses limitations in current species ID tools, especially when it comes to underdocumented or unknown species. <br>
+		This project was tested on <i>Noctuidae</i> moths in the Binghamton University Nature Perserve and I will continure reasurch over the summer to validate the dataset. 
+
+<br><br><i>Website coming soon!</i><br>- Reasurch in Dr. Eliza Grames Lab</p>
+	</div>
+</div>
+</div>
+
+
+<div class="info">
+
+	<div class="Northern_mole_cricket">
+		<img src="Mole_Cricket.jpg" alt="Image of Northern mole cricket: Neocurtilla hexadactyla, photographed by J.L. Caster, University of Flordia" width="150">
+	</div>
+
+
+<div class="words">
+	<div class="Ortho_App">
+			<a href="https://github.com/JenniferSlater/OrthoID" target="_blank">OrthoID</a>
+
+		<p>Quiz game developed in R using Shiny, to help identify various Orthoptera species by matching the species name to sound and image cues.
+Recordings and pictures are specific to Eastern Texas and recordings were collected from <a href="https://orthsoc.org/sina/index.htm" target="_blank">Orthopterists' Society</a> (T.J. Walker, T.M.Yawn)<br><br>
+This project is to help educate researchers and the general public, on common cricket species, and is part of a broader initiative to record cricket calls and classify orthoptera calls using raven pro.<br>
+Contributed to dataset creation and collaborated on development of the Shiny interface.<br>This is an ongoing project and that I will continue to work on with PhD Student Joe Elias over the summer<br><br><i>Website coming soon!</i><br>- Reasurch in Dr. Eliza Grames Lab</p>
+	</div>
+
+</div>
+
+</div>
+
+
+
 </body>
 </html>
