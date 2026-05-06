@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+}
+
+.My_pic {
+	display: flex;
+	align-items: center; 
+	gap: 20px;        
+}
+
+.My_name h1 {
+	margin: 0;
+	line-height: 1;
+	font-size: 45px;
+	font-family: Times New Roman;
+	
+}
+
+.Page_links nav {
+	line-height: 1;
+  	display: flex;
+  	gap: 20px;      
+  	margin-top: 15px;
+}
+
+.Page_links a {
+	text-decoration: none; 
+	font-size: 25px;
+	font-family: Times New Roman;
+
+}
+
+.cute_box_thing {
+	text-align: center;
+	font-size: 22px;
+	background-color: #e9e6efff;
+
+}
+
+.info{
+	font-size: 22px;
+	display: flex;
+	padding: 15px;
+	margin: 20px;
+	background: #f2f1f3dd;
+
+}
+
+.Apic{
+	border: 2px solid black;
+
+}
+
+.about_section {
+  display: flex;
+}
+
+.Moth_Morphometrics a,
+.Ortho_App a {
+	text-decoration: none;
+}
+
+
+
+
+.p{
+	font-size: 22px;
+	color: #333;
+	line-height: 1;
+	padding: 5px;
+
+}
+
+.words{
+	margin: 20px;
+}
+
+.infoc{
+	display: flex;
+	flex-direction: column;
+	font-size: 22px;
+	padding: 15px;
+	margin: 20px;
+	background: #f2f1f3dd;
+
+}
+
+row{
+	display: flex;
+	gap: 10px;
+
+}
+
+
